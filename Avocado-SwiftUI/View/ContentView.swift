@@ -9,8 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(alignment: .center, spacing: 20) {
+                // MARK: - HEADER
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 0) {
+                        HeaderView()
+                    }//:HStack
+                    
+                }//:Scroll
+                
+                // MARK: - FOOTER
+                VStack(alignment: .center, spacing: 20) {
+                    Text("All About Avocados")
+                        .font(.title)
+                        .bold()
+                        .foregroundColor(Color("ColorGreenAdaptive"))
+                        .padding(8)
+                    Text("Everything you wanted to know about avocados but were too afraid to ask.")
+                        .font(.system(.body))
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.gray)
+                }//:VStack
+                .frame(maxWidth: 640)
+                .padding()
+                .padding(.bottom,85)
+            }//:VStack
+        }//:Scroll
+        .edgesIgnoringSafeArea(.all)
+        .padding(0)
     }
 }
 
