@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42DF3BD286B22720028E94C /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42DF3BC286B22720028E94C /* DishesView.swift */; };
+		C42DF3BF286B24D50028E94C /* DishesViewIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42DF3BE286B24D50028E94C /* DishesViewIcon.swift */; };
+		C42DF3C1286B263E0028E94C /* DishesViewIconRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42DF3C0286B263E0028E94C /* DishesViewIconRight.swift */; };
 		C45454A82868C766000F653E /* Avocado_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45454A72868C766000F653E /* Avocado_SwiftUIApp.swift */; };
 		C45454AA2868C766000F653E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45454A92868C766000F653E /* ContentView.swift */; };
 		C45454AC2868C768000F653E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45454AB2868C768000F653E /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C42DF3BC286B22720028E94C /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		C42DF3BE286B24D50028E94C /* DishesViewIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesViewIcon.swift; sourceTree = "<group>"; };
+		C42DF3C0286B263E0028E94C /* DishesViewIconRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesViewIconRight.swift; sourceTree = "<group>"; };
 		C45454A42868C766000F653E /* Avocado-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avocado-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45454A72868C766000F653E /* Avocado_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avocado_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C45454A92868C766000F653E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				C4A2AD742868D2460096D24A /* SettingsView.swift */,
 				C4A2AD762868D2520096D24A /* AppView.swift */,
 				C48661CA28697CB9003C08DF /* HeaderView.swift */,
+				C42DF3BC286B22720028E94C /* DishesView.swift */,
+				C42DF3BE286B24D50028E94C /* DishesViewIcon.swift */,
+				C42DF3C0286B263E0028E94C /* DishesViewIconRight.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,12 +197,15 @@
 			files = (
 				C4A2AD752868D2460096D24A /* SettingsView.swift in Sources */,
 				C45454AA2868C766000F653E /* ContentView.swift in Sources */,
+				C42DF3BF286B24D50028E94C /* DishesViewIcon.swift in Sources */,
 				C4A2AD772868D2520096D24A /* AppView.swift in Sources */,
 				C4A2AD732868D23B0096D24A /* RipeningStagesView.swift in Sources */,
 				C45454A82868C766000F653E /* Avocado_SwiftUIApp.swift in Sources */,
 				C4A2AD712868D2270096D24A /* AvocadosView.swift in Sources */,
 				C48661CD286989A0003C08DF /* HeaderModel.swift in Sources */,
 				C48661CF28698A11003C08DF /* HeaderData.swift in Sources */,
+				C42DF3BD286B22720028E94C /* DishesView.swift in Sources */,
+				C42DF3C1286B263E0028E94C /* DishesViewIconRight.swift in Sources */,
 				C48661CB28697CB9003C08DF /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
