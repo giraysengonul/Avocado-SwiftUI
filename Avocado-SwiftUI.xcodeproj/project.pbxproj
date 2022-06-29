@@ -23,6 +23,8 @@
 		C4A2AD732868D23B0096D24A /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2AD722868D23B0096D24A /* RipeningStagesView.swift */; };
 		C4A2AD752868D2460096D24A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2AD742868D2460096D24A /* SettingsView.swift */; };
 		C4A2AD772868D2520096D24A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A2AD762868D2520096D24A /* AppView.swift */; };
+		C4C41F39286C1D8B00D23D43 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C41F38286C1D8B00D23D43 /* FactModel.swift */; };
+		C4C41F3B286C1DE400D23D43 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C41F3A286C1DE400D23D43 /* FactData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		C4A2AD722868D23B0096D24A /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		C4A2AD742868D2460096D24A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C4A2AD762868D2520096D24A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		C4C41F38286C1D8B00D23D43 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		C4C41F3A286C1DE400D23D43 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C48661CE28698A11003C08DF /* HeaderData.swift */,
+				C4C41F3A286C1DE400D23D43 /* FactData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				C48661CC286989A0003C08DF /* HeaderModel.swift */,
+				C4C41F38286C1D8B00D23D43 /* FactModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			files = (
 				C4A2AD752868D2460096D24A /* SettingsView.swift in Sources */,
 				C45454AA2868C766000F653E /* ContentView.swift in Sources */,
+				C4C41F3B286C1DE400D23D43 /* FactData.swift in Sources */,
 				C42DF3BF286B24D50028E94C /* DishesViewIcon.swift in Sources */,
 				C4A2AD772868D2520096D24A /* AppView.swift in Sources */,
 				C4A2AD732868D23B0096D24A /* RipeningStagesView.swift in Sources */,
@@ -207,6 +214,7 @@
 				C42DF3C3286B31B40028E94C /* FactsView.swift in Sources */,
 				C4A2AD712868D2270096D24A /* AvocadosView.swift in Sources */,
 				C48661CD286989A0003C08DF /* HeaderModel.swift in Sources */,
+				C4C41F39286C1D8B00D23D43 /* FactModel.swift in Sources */,
 				C48661CF28698A11003C08DF /* HeaderData.swift in Sources */,
 				C42DF3BD286B22720028E94C /* DishesView.swift in Sources */,
 				C42DF3C1286B263E0028E94C /* DishesViewIconRight.swift in Sources */,
