@@ -46,35 +46,10 @@ struct RecipeCardView: View {
                     .font(.system(.body,design: .serif))
                     .foregroundColor(.gray)
                     .italic()
-                //RATES
-                HStack(alignment: .center, spacing: 5) {
-                    ForEach(1...(recipe.rating),id: \.self){
-                        _ in
-                        Image(systemName: "star.fill")
-                            .font(.body)
-                            .foregroundColor(.yellow)
-                    }
-                }
+                //RATING
+              RecipeRatingView(recipe: recipe)
                 //COOKING
-                HStack(alignment: .center, spacing: 12) {
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "person.2")
-                        Text("Serves: \(recipe.serves)")
-                    }
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "clock")
-                        Text("Prep: \(recipe.preparation)")
-                    }
-                    
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "flame")
-                        Text("Cooking: \(recipe.cooking)")
-                    }
-                }
-                .font(.footnote)
-                .foregroundColor(.gray)
-                
-                
+              RecipeCookingView(recipe: recipe)
                 
             }
             .padding()
