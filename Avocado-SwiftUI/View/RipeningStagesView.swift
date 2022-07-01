@@ -8,13 +8,34 @@
 import SwiftUI
 
 struct RipeningStagesView: View {
+     // MARK: - PROPERTIES
+    
+    var ripeningStages: [Ripening] = ripeningData
+    
+     // MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            
+            ForEach(ripeningStages){
+                item in
+                RipeningView(ripening: item)
+            }
+            
+        }
+        .onAppear(){
+            UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(Color("ColorGreenMedium"));
+              
+           }
+        
+        .tabViewStyle(.page)
+        
     }
 }
 
+
+ // MARK: - PREVIEW
 struct RipeningStagesView_Previews: PreviewProvider {
     static var previews: some View {
-        RipeningStagesView()
+        RipeningStagesView(ripeningStages: ripeningData)
     }
 }

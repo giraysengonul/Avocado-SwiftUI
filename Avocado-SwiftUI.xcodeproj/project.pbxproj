@@ -32,6 +32,8 @@
 		C4C41F39286C1D8B00D23D43 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C41F38286C1D8B00D23D43 /* FactModel.swift */; };
 		C4C41F3B286C1DE400D23D43 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C41F3A286C1DE400D23D43 /* FactData.swift */; };
 		C4D9A52D286F1D950050BEE2 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9A52C286F1D950050BEE2 /* RipeningView.swift */; };
+		C4D9A52F286F28C90050BEE2 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9A52E286F28C90050BEE2 /* RipeningModel.swift */; };
+		C4D9A531286F297F0050BEE2 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D9A530286F297F0050BEE2 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		C4C41F38286C1D8B00D23D43 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 		C4C41F3A286C1DE400D23D43 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 		C4D9A52C286F1D950050BEE2 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		C4D9A52E286F28C90050BEE2 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		C4D9A530286F297F0050BEE2 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				C48661CE28698A11003C08DF /* HeaderData.swift */,
 				C4C41F3A286C1DE400D23D43 /* FactData.swift */,
 				C43984E9286D7C49006B2467 /* RecipeData.swift */,
+				C4D9A530286F297F0050BEE2 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				C48661CC286989A0003C08DF /* HeaderModel.swift */,
 				C4C41F38286C1D8B00D23D43 /* FactModel.swift */,
 				C43984E7286D7B98006B2467 /* RecipeModel.swift */,
+				C4D9A52E286F28C90050BEE2 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,10 +234,12 @@
 				C4A2AD752868D2460096D24A /* SettingsView.swift in Sources */,
 				C45454AA2868C766000F653E /* ContentView.swift in Sources */,
 				C4D9A52D286F1D950050BEE2 /* RipeningView.swift in Sources */,
+				C4D9A531286F297F0050BEE2 /* RipeningData.swift in Sources */,
 				C43984EC286D7CDC006B2467 /* RecipeCardView.swift in Sources */,
 				C43984F0286D8D35006B2467 /* RecipeCookingView.swift in Sources */,
 				C4C41F3B286C1DE400D23D43 /* FactData.swift in Sources */,
 				C42DF3BF286B24D50028E94C /* DishesViewIcon.swift in Sources */,
+				C4D9A52F286F28C90050BEE2 /* RipeningModel.swift in Sources */,
 				C4A2AD772868D2520096D24A /* AppView.swift in Sources */,
 				C43984F2286D8D92006B2467 /* RecipeDetailView.swift in Sources */,
 				C43984E8286D7B98006B2467 /* RecipeModel.swift in Sources */,
